@@ -3148,8 +3148,8 @@ class Character : public Creature, public visitable
         // morale bonus from wearing holy symbol for spiritual characters
         void spiritual_morale_bonus();
         // morale bonus/penalty from pyromania traits
-        bool handle_pyromania_morale( const int base_morale, const int max_morale,
-                                      const time_duration &max_dur, const time_duration &decay_dur, const bool started_fire = true );
+        bool handle_pyromania_morale( int base_morale, int max_morale,
+                                      const time_duration &max_dur, const time_duration &decay_dur, bool started_fire = true );
         /** Used to apply morale modifications from food and medication **/
         void modify_morale( item &food, int nutr = 0 );
         // Modified by traits, &c

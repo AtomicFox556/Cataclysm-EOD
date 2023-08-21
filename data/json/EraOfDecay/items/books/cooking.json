@@ -1,0 +1,23 @@
+[
+  {
+    "id": "cookbook_slavic_specialties",
+    "type": "BOOK",
+    "category": "manuals",
+    "name": { "str": "Slavic Specialties", "str_pl": "copies of Slavic Specialties" },
+    "description": "A cookbook about traditional Slavic dishes and gastronomic meals.",
+    "weight": "1200 g",
+    "volume": "1350 ml",
+    "price": 1830,
+    "price_postapoc": 350,
+    "material": [ "paper" ],
+    "symbol": "?",
+    "looks_like": "cookbook",
+    "color": "brown",
+    "skill": "cooking",
+    "max_level": 2,
+    "intelligence": 5,
+    "time": "15 m",
+    "fun": 1,
+    "melee_damage": { "bash": 2 }
+  }
+]
