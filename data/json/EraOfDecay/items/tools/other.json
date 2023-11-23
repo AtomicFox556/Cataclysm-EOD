@@ -73,14 +73,15 @@
   },
   {
     "id": "rc_scout_car",
-    "copy-from": "rc_scout_car",
     "type": "TOOL",
+    "weight": "1 kg",
+    "volume": "1 L",
+    "price_postapoc": 5000,
     "name": { "str": "RC scout car" },
     "description": "A small wheeled drone, nimble and almost undetectable it mounts a robotic eye for espionage work.  Once turned on, a remote controller will let you use it as a mobile camera.",
     "symbol": "e",
     "ammo": [ "battery" ],
     "charges_per_use": 1,
-    "proportional": { "weight": 0.73, "volume": 0.75, "price": 0.8 },
     "use_action": {
       "target": "rc_scout_car_on",
       "menu_text": "Activate RC scout car",
